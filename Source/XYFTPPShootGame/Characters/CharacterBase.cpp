@@ -23,7 +23,7 @@ ACharacterBase::ACharacterBase()
 	PrimaryActorTick.bCanEverTick = true;
 	
 	
-	GetCharacterMovement()->MaxWalkSpeed = 5000.f;
+	GetCharacterMovement()->MaxWalkSpeed = 500.f;
 
 	DefaultHealth = 100.f;
 	Health = 100.f;
