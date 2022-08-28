@@ -42,7 +42,7 @@ int ASGPlayerController::GetDeadNum()
 void ASGPlayerController::AddKillNum()
 {
 	KillNum += 1;
-	if(KillNum == 3)
+	if(KillNum == 10)
 	{
 		CallSeverEndGame(true);
 	}
@@ -51,7 +51,7 @@ void ASGPlayerController::AddKillNum()
 void ASGPlayerController::AddDeadNum()
 {
 	DeadNum += 1;
-	if(DeadNum == 3)
+	if(DeadNum == 10)
 	{
 		CallSeverEndGame(false);
 	}
