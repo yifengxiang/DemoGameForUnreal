@@ -47,12 +47,12 @@ void ASGGunBase::BeginPlay()
 
 void ASGGunBase::OnRep_CurrentMagBullet()
 {
-	GEngine->AddOnScreenDebugMessage(-1, 3.f, FColor::Yellow, FString("OnRep_CurrentMagBullet"));
+	
 }
 
 void ASGGunBase::OnRep_BackuptMagBullet()
 {
-	GEngine->AddOnScreenDebugMessage(-1, 3.f, FColor::Yellow, FString("OnRep_BackuptMagBullet"));
+	
 }
 
 // Called every frame
