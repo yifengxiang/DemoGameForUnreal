@@ -1,3 +1,3 @@
 # DemoGameForUnreal
 
-apk文件在release中
+apk文件和demo演示视频在release中
